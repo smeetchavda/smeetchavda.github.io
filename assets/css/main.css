@@ -37,6 +37,17 @@ ol, ul {
 	list-style: none;
 }
 
+div.scroll-container {
+	background-color: #333;
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+  }
+  
+  div.scroll-container img {
+	padding: 10px;
+  }
+  
 blockquote, q {
 	quotes: none;
 }
@@ -99,7 +110,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
+		background-color: #ffffff;
 		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
@@ -2167,7 +2178,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #ffffff;
 		}
 
 	input[type="checkbox"] + label,
@@ -2185,7 +2196,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #ffffff;
 	}
 
 	input[type="checkbox"]:focus + label:before,
